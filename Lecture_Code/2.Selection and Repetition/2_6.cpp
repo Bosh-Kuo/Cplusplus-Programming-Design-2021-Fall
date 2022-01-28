@@ -11,7 +11,7 @@ int main()
     cout << "Press 1 to exit: ";
     cin >> exit;
 
-    while(exit != 1)
+    while (exit != 1)
     {
         // do something
         cout << "Press 1 to exit: ";

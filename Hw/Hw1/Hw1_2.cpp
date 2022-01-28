@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() 
+int main()
 {
     int m, n, TA, Prof, count = 0;
     cin >> n >> m;
@@ -13,7 +13,7 @@ int main()
     {
         cout << -1;
     }
-    
+
     // 有TA狀況
     if (TA > 0)
     {
@@ -31,6 +31,6 @@ int main()
                 cout << (count * m + 1);
                 count++;
             }
-        }        
-    }    
+        }
+    }
 }
