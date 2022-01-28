@@ -51,7 +51,8 @@ int main()
 ## **編譯與執行**
 in terminal:  
 cd 檔案所放的目錄  
-(1) g++ 檔名.cpp (3-1)./a.out or  
+(1) g++ 檔名.cpp (3-1)./a.out   
+or  
 (2) g++ 檔名.cpp -o 檔名 （3-2)./檔名
 
 
