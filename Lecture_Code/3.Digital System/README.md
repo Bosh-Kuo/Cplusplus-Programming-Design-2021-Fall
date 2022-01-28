@@ -1,12 +1,15 @@
 # **CH3 Note**
 ## **Base-r system**
 X可以被表示成如下式：  
-$X = (a_n a_{n-1} ... ... a_1 a_0 a_{-1} ... a_{-m})_r$
+<!-- $X = (a_n a_{n-1} ... ... a_1 a_0 a_{-1} ... a_{-m})_r$ -->
+<img src="https://render.githubusercontent.com/render/math?math=X = (a_n a_{n-1} ... ... a_1 a_0 a_{-1} ... a_{-m})_r">
 
 其值可由下式計算：  
-$X = a_nr^n+ a_{n-1}r^{n-1} ... ... a_1r + a_0 + a_{-1}r^{-1} a_{-2}r^{-2}  ... a_{-m}r^{-m}$
+<!-- $X = a_nr^n+ a_{n-1}r^{n-1} ... ... a_1r + a_0 + a_{-1}r^{-1} a_{-2}r^{-2}  ... a_{-m}r^{-m}$ -->
+<img src="https://render.githubusercontent.com/render/math?math=X = a_nr^n+ a_{n-1}r^{n-1} ... ... a_1r + a_0 + a_{-1}r^{-1} a_{-2}r^{-2}  ... a_{-m}r^{-m}">
 
-$r$ 為進位數
+<!-- $r$ 為進位數 -->
+<img src="https://render.githubusercontent.com/render/math?math=r">為進位數
 
 
 ---
