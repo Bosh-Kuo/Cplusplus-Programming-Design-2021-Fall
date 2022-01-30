@@ -11,7 +11,7 @@ X可以被表示成如下式：
 <!-- $r$ 為進位數 -->
 <img src="https://render.githubusercontent.com/render/math?math=r">為進位數
 
-
+> 在github上用LaTeX打數學式太麻煩了... 下面數學式就不改了如果有興趣還是下載到本地開啟比較快@@
 ---
 ### **Example(整數):**    
 整數部分153  
