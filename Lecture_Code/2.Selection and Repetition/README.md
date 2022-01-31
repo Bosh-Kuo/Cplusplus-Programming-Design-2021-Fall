@@ -1,4 +1,4 @@
-# **CH2 Note**
+# **CH2 Selection and Repetition**
 ## **C++ Program 執行階段**
 ```mermaid
 graph LR

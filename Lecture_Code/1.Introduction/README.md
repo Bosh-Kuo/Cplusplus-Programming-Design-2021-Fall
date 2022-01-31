@@ -1,4 +1,4 @@
-# **CH1 Note**
+# **CH1 Introduction**
 ## **C Program 執行階段 (補充)**
 ``` mermaid
 graph LR

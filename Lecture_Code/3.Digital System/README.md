@@ -1,4 +1,4 @@
-# **CH3 Note**
+# **CH3 Digital Systems**
 ## **Base-r system**
 X可以被表示成如下式：  
 <!-- $X = (a_n a_{n-1} ... ... a_1 a_0 a_{-1} ... a_{-m})_r$ -->

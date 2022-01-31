@@ -1,8 +1,8 @@
-# **CH5 Note**
+# **CH5 Functions**
 ## **Founction**
 C++中function是由header與body組成，分別有system-defined functions, user-defined functions
 宣告的prototype: `return_type function_name(parameter_type parameter_name);`  
-另外C++ funtion一次只能回傳一個變數，若要回傳多個值，要用class與bject。
+另外C++ funtion一次只能回傳一個變數，若要回傳多個值，要用class與object。
 參考[5_1.cpp](./5_1.cpp)
 
 
@@ -45,6 +45,9 @@ arguments: 用來稱傳入函數的原始變數。 (function外)
 當使用call by value mechanism時，會在funtion block內建立記憶體空間宣告local variable作為parameter，再將argument的值複製給parameter，等block執行結束後便會清除local variable，釋放記憶體空間。  
 其特點是function可被寫為independent entities，寫function時不需要管外部的任何變數，不會影響或被影響。  參考[5_12.cpp](./5_12.cpp)
 
+但有些情境我們會需要function去改變傳入的arguments本身的值，我們可以：
+- call by reference
+- 傳入array(傳址)
 
 --- 
 ## **Passing an 1d array as an argument**

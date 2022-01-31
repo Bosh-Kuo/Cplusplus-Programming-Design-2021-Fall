@@ -1,9 +1,10 @@
-# **CH4 Note**
-## Basic data type
+# **CH4 Variables and Arrays**
+## **Basic data type**
 ### **Limit of C++**
 一個可以查看各個資料型態極限大小的Libary，https://www.cplusplus.com/reference/climits/ ，使用時加上：  
 ```C++
 #include <climits>
+// 從C語言就有的函式庫會以c開頭
 ```
 參考[4_1.cpp](./4_1.cpp)
 
