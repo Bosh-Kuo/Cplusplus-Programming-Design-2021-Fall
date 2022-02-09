@@ -248,6 +248,15 @@ It returns the address of the first occurrence of the character. If the characte
 char* strchr(char* str, int character);
 ```
 
+### **Searching for a substring**
+
+If we want to search for a substring, we use `strstr`.  
+This returns the address of the first occurrence of `str2` in `str1`.
+
+```C++
+char* strstr(char* str1, const char* str2);
+```
+
 <br>
 
 ### **String-number conversion**
