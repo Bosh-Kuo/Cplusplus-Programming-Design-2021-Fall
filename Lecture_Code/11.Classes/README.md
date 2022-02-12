@@ -333,6 +333,7 @@ C++ offers the member access operator `->`. 直接存取object pointer所指到�
 
 - Object pointers allow us to do dynamic memory allocation.
 ```C++
+
 int main() 
 {
     MyVector* ptrV = new MyVector(5);
@@ -396,7 +397,7 @@ MyVector cenGrav(MyVector& v1, MyVector& v2, MyVector& v3)
 
 ### **Copying an object**
 
-Creating an object by “copying” an object is a special operation.
+Creating an object by `“copying”` an object is a special operation.
 
 - call-by-value mechanism. 
 - assign an object to another object. 
@@ -418,7 +419,7 @@ private:
     int i; 
 public:
     A() { cout << "A"; }
-    A(const A& a) { cout << "a"; } 
+    A(const A& a) { cout << "a"; }  //copy constructor
 };
 
 void f(A a1, A a2, A a3)
