@@ -125,6 +125,8 @@ A `constructor` is an `instance function` of a class. However, a constructor wil
 - If any member variable needs an initial value when an object is created, you should write a constructor to initialize it. 
 - Use constructor overloading to provide flexibility.
 
+`::在這邊為class scope，用法(class::name)，用來表示右邊的name屬於class的成員`
+
 ```C++
 class MyVector
 {
@@ -256,7 +258,7 @@ A member variable/function may be an attribute/operation of a `class`.
 
 ### **Static members: an example**
 
-We have to initialize a static variable globally. To access static members, use 
+We have to initialize a `static` variable globally. To access static members, use 
 > class name::member name.
 
 ```C++
