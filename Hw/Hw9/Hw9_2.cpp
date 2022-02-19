@@ -368,7 +368,7 @@ void Problem::solve()
     {
         cin >> ident >> m >> n; // Matrix name, row, column
         Matrix mat(vector2i(m, n));
-        cin >> mat; // >> 經過overwrite，會逐筆輸入Matrix
+        cin >> mat; // >> 經過overloading，會逐筆輸入Matrix
         this->addMatrixDefinition(ident, mat);
     } while (!isLowerCase(ident.at(0))); // 向量(為小寫符號)
 
