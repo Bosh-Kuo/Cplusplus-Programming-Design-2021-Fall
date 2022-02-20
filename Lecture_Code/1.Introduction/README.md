@@ -18,8 +18,8 @@ graph LR
 * *5. Loading*: `loader`將`executable image`從磁碟轉移到記憶體上。
 * *6. Execution*: 最後電腦在CPU控制之下運行程式。
 
+<br>
 
----
 ## **C++ Program 執行階段**
 ```mermaid
 graph LR
@@ -46,8 +46,8 @@ int main()
     - `#include "路徑"`：引進自己寫的函式
 - *namespace*: 命名空間：裝變數、函數、物件名稱的空間，程式執行時compiler會搜尋所看到的名稱是否定義於程式中或者是std namespace中
 
+<br>
 
----
 ## **編譯與執行**
 in terminal:  
 cd 檔案所放的目錄  

@@ -5,33 +5,33 @@ C++中function是由header與body組成，分別有system-defined functions, use
 另外C++ funtion一次只能回傳一個變數，若要回傳多個值，要用class與object。
 參考[5_1.cpp](./5_1.cpp)
 
+<br>
 
----
 ## **funtion prototype**
 在C++中funtion 須在main()前先declare,並在main()後define內容。同樣也可以在main()前直接defination取代declaration，就不用另外做declaration。但需要小心若多個function間有互相呼叫關係，那要確保呼叫的function以經被define好了，若兩function間互相呼叫，就一定只能用function prototype。  
 參考[5_2.cpp](./5_2.cpp), [5_3.cpp](./5_3.cpp)
 
+<br>
 
----
 ## **Function parameters v.s. arguments**
 parameters: 用來稱函數block內的變數。 (function內)   
 arguments: 用來稱傳入函數的原始變數。 (function外)
 參考[5_4.cpp](./5_4.cpp)
 
+<br>
 
----
 ## **Function return value**
-若函數在if else控制流程中沒有return指定數值，函數仍然或回傳一束任意數字，這就像是宣告變數但未指定初始值的狀況一樣。  
+若函數在if else控制流程中沒有return指定數值，函數仍然或回傳一束任意數字，這就像是宣告變數但未指定初始值的狀況一樣。  
 參考[5_5.cpp](./5_5.cpp) 
 
+<br>
 
----
 ## **Operator also return value**
-`cin >>, cout <<` 本身會回傳`istream& object`作為回傳值，當將cin >> 寫在while中時，若是以鍵盤輸入就會永遠跳不出while迴圈，但若是以指令直接讀取文檔時，當`cin>>`讀不到檔案內的資料就會回傳一個false value。  
+`cin >>, cout <<` 本身會回傳`istream& object`作為回傳值，當將cin >> 寫在while中時，若是以鍵盤輸入就會永遠跳不出while迴圈，但若是以指令直接讀取文檔時，當`cin>>`讀不到檔案內的資料就會回傳一個false value。  
 參考[5_6.cpp](./5_6.cpp) 
 
+<br>
 
----
 ## **變數生命週期**
 `1. local variable:` 出了block就消失。 參考[5_7.cpp](./5_7.cpp)   
 `2. global variable:` 不定義在任何block裡面，因此任何block都可以使用它。（不建議使用）
@@ -39,8 +39,8 @@ arguments: 用來稱傳入函數的原始變數。 (function外)
 `3. external variable:` keyword: `external`，當大型系統中多個程式同時存取同個變數`extermal int a`，在其中一個程式改動這個a，其他城市中的a也會一起變動。（不建議使用）  
 `4. static variable:` 雖然是在block裡面被宣告，但其特性像global variable一樣在程式結束前都不會被清除。 參考[5_9.cpp](./5_9.cpp), [5_10.cpp](./5_10.cpp), [5_11.cpp](./5_11.cpp)          
 
+<br>
 
----
 ## **Call by value**
 當使用call by value mechanism時，會在funtion block內建立記憶體空間宣告local variable作為parameter，再將argument的值複製給parameter，等block執行結束後便會清除local variable，釋放記憶體空間。  
 其特點是function可被寫為independent entities，寫function時不需要管外部的任何變數，不會影響或被影響。  參考[5_12.cpp](./5_12.cpp)
@@ -49,7 +49,8 @@ arguments: 用來稱傳入函數的原始變數。 (function外)
 - call by reference
 - 傳入array(傳址)
 
---- 
+<br>
+
 ## **Passing an 1d array as an argument**
 範例：
 ```C++
@@ -57,8 +58,8 @@ void printArray(int arr[]);
 ```
 Array 變數事實上存的是第一個變數的address。 參考[5_13.cpp](./5_13.cpp), [5_14.cpp](./5_14.cpp)    
 
+<br>
 
----
 ## **Passing an 1d array as an argument**
 範例：
 ```C++

@@ -37,8 +37,8 @@ int main()
 - *namespace*: 命名空間：裝變數、函數、物件名稱的空間，程式執行時compiler會搜尋所看到的名稱是否定義於程式中或者是std namespace中
 - *scope resolution operator(::)*: 範疇解析運算子，用上面程式碼舉例，目的為告訴compiler我現在使用的cout是裝在std命名空間裡的cout
 
+<br>
 
----
 ## **Ternary if operator**
 
 ```C++
@@ -46,8 +46,8 @@ condition ? operation A : operation B
 ```
 If `condition` is true do `operation A` otherwise do `operation B`
 
+<br>
 
----
 ## **swich-case statement**
 
 ```C++
